@@ -280,6 +280,25 @@
 
           <ul class="project-list">
 
+            <li class="project-item  active" data-filter-item data-category="c/c++">
+              <a href="https://github.com/jb-20-a11y/shac" target="_blank" rel="noopener noreferrer">
+
+                <div class="project-img project-banner project-banner--cpp" aria-hidden="true">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <span class="project-banner-label">C++17 / Python</span>
+                </div>
+
+                <h3 class="project-title">Simulated High-Availability Controller (SHAC)</h3>
+                <p class="project-category">C++ / Embedded Systems</p>
+                <p class="project-description">
+                  A simulation of a redundant industrial controller pair modeled after the High Availability architecture used in safety-critical PLCs. Two nodes exchange binary state packets over UDP every 50ms. If the active node stops transmitting, the standby node detects the silence and promotes itself within a bounded time window, taking over with no re-initialization required because it continuously mirrors the active node's sensor and output state. Built in C++17 with CRTP-based hardware abstraction, RAII synchronization primitives, and a Python/pytest integration suite that verifies failover timing against formal requirements.
+                </p>
+
+              </a>
+            </li>
+
             <li class="project-item  active" data-filter-item data-category="ai">
               <a href="https://github.com/jb-20-a11y/agentic-vr-form-app" target="_blank" rel="noopener noreferrer">
 
